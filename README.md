@@ -1,6 +1,6 @@
 # Assignment-9
 
-# Install SimPy (Run only once in terminal)
+# Install simpy
 # pip install simpy
 
 import simpy
