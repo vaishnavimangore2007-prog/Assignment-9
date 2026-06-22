@@ -5,7 +5,7 @@
 
 import simpy
 
-# Example 1
+
 print("SimPy installed successfully!")
 
 def process(env):
@@ -19,7 +19,6 @@ env.run()
 
 print("-" * 30)
 
-# Example 2
 def customer(env):
     print("Customer arrives at", env.now)
     yield env.timeout(3)
@@ -31,7 +30,7 @@ env.run()
 
 print("-" * 30)
 
-# Example 3
+
 def process1(env):
     yield env.timeout(2)
     print("Process 1 completed at", env.now)
@@ -47,7 +46,7 @@ env.run()
 
 print("-" * 30)
 
-# Example 4 - Average Waiting Time
+ Average Waiting Time
 wait_times = [2, 4, 3, 1]
 
 average = sum(wait_times) / len(wait_times)
